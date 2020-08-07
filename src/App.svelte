@@ -52,7 +52,7 @@
 		userGuess = '';
 	}
 </script>
-
+<main>
 <button on:click={restartGame}>
 	New game
 </button>
@@ -76,7 +76,9 @@
 	   </li>
 	{/each}
 </ul>
-
+</main>
 <style>
-	
+main{
+	text-align: center;
+}
 </style>
