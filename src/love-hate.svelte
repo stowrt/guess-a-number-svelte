@@ -2,7 +2,7 @@
 	let sentence = "";
 </script>
 <h5>
-	Never propose me!
+	Never propose me! 🌹
 </h5>
 <input type="text" bind:value={sentence}/>
 <hr/>
