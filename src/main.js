@@ -1,8 +1,7 @@
 // import LoveHate from "./love-hate.svelte";
+import LoveHate from "./breaking-bad-characters.svelte";
 
-import App from "App.svelte";
-
-const app = new App({
+const app = new LoveHate({
   target: document.body,
 });
 
