@@ -2,17 +2,20 @@
 	let sentence = "";
 </script>
 <h5>
-	Never propose me! 🌹❌
+	Never propose me! ❌
 </h5>
 <input type="text" bind:value={sentence}/>
 <hr/>
 {#each sentence.split(" ") as value}
-	{#if value.includes("love")}
-		<strike>
+	{#if value.toLowerCase().includes("love")}
+		<p>
+			<strike>
 			{value} 
-		</strike> ❌ - better hate me!
+		</strike> ❌ - better <strong>hate</strong> me! </p>
   {:else if value.toLowerCase() === "hate"}
-		<strong> {value} ✅</strong>
+<p>
+	<strong> {value} ✅</strong>
+</p>
 	{:else}
 		<p>
 			{value}
