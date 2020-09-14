@@ -1,6 +1,8 @@
-import LoveHate from "./love-hate.svelte";
+// import LoveHate from "./love-hate.svelte";
 
-const app = new LoveHate({
+import App from "App.svelte";
+
+const app = new App({
   target: document.body,
 });
 
